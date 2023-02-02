@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(
+        to left,
+        grey,
+        steelblue
+    );
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#selectionForm {
+    display: flex;
+    gap: 1rem;
+}
